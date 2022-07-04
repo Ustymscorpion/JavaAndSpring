@@ -19,8 +19,8 @@ public class HomePageController {
     public String sayTI(){
         return "NVIDIA GeForce RTX 3080 ti";
     }
-    @GetMapping("/GraficCard")
+ /*   @GetMapping("/GraficCard")
     public String sayNotTI() {
         return "NVIDIA GeForce RTX 3080";
-    }
+    } */
 }

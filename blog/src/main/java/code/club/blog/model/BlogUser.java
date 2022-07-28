@@ -1,4 +1,4 @@
-package code.club.blog.club.blog.model;
+package code.club.blog.model;
 
 import javax.persistence.*;
 import java.util.Collection;

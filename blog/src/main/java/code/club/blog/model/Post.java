@@ -1,4 +1,4 @@
-package code.club.blog.club.blog.model;
+package code.club.blog.model;
 
 import org.hibernate.annotations.CreationTimestamp;
 

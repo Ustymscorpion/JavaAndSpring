@@ -8,9 +8,11 @@ import java.util.Optional;
 
 @Repository
 public interface BlogUserRepository extends JpaRepository<BlogUser, Long> {
-    // пошук користувача за username
+
     Optional<BlogUser> findByUsername(String username);
+
 }
+
 // null point exception => NPE
 // null - порожній об'єкт
 
